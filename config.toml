@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://dazzling-mcclintock-33955b.netlify.app/"
+baseURL = "https://leandro-matos.netlify.app/"
 languageCode = "pt-br"
 title = ""
 theme = "hugo-devresume-theme"

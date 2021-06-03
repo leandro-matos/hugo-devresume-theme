@@ -2,9 +2,9 @@
 
 baseURL = "https://leandro-matos.netlify.app/"
 languageCode = "pt-br"
-title = ""
+title = "Leandro de Matos Pereira"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-WM9C908RSK"
 
 
 [params]

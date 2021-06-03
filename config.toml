@@ -1,0 +1,237 @@
+# Page settings
+
+baseURL = "https://ldpereira.github.io"
+languageCode = "pt-br"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "Leandro de Matos Pereira"
+    description = "CV Online Leandro de Matos Pereira"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Leandro de Matos"
+        tagline = "Software Engineering Sr Analyst"
+        avatar = "avatar.jpg"
+
+
+    [params.contact]
+        enable = true
+        location = "Embu das Artes"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "55 11983439235"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "leandromatpereira@hotmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://leandro-matos.github.io/"
+        text = "leandro-matos.github.io"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Python/Shell Script/PowerShell"
+		[[params.skills.list.items]]
+        details = "Ubuntu/RedHat/Debian"
+        [[params.skills.list.items]]
+        details = "Security/Networking/Virtualization"
+        [[params.skills.list.items]]
+        details = "Git/Gitlab/Azure Devops"
+        [[params.skills.list.items]]
+        details = "Docker/Kubernetes"
+        [[params.skills.list.items]]
+        details = "Terraform/Ansible/CloudFormation"
+		[[params.skills.list.items]]
+        details = "Splunk/ElasticStack/Prometheus"
+		[[params.skills.list.items]]
+        details = "Aws/Azure/OracleCloud"
+
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Comunicação assertiva"
+        [[params.skills.list.items]]
+        details = "Trabalho em equipe"
+        [[params.skills.list.items]]
+        details = "Planejamento e disciplina"
+        [[params.skills.list.items]]
+        details = "Inteligência emocional"
+		[[params.skills.list.items]]
+        details = "Senso de dono"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Gestão da Tecnologia da Informação"
+        university = "Universidade Cruzeiro do Sul"
+        dates = "2016 - 2018"
+        [[params.education.list]]
+        degree = "Análise e Desenvolvimento de Sistemas"
+        university = "Centro Universitário BrazCubas"
+        dates = "2016 - 2018"
+        [[params.education.list]]
+        degree = "Redes de Computadores"
+        university = "Senai Suiço-Brasileira"
+        dates = "2011 - 2013"
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Português"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Inglês"
+        level = "Professional"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "História/Filosofia"
+        [[params.interests.list]]
+        name = "Correr/Academia"
+        [[params.interests.list]]
+        name = "Filmes/Séries/Animes"
+        [[params.interests.list]]
+        name = "Futebol/Basquete"
+
+
+    [params.summary]
+        enable = true
+        text = "Minha carreira começou no Senai, onde fiz um curso técnico de 02 anos de Redes de Computadores. Entendo os principais conceitos de redes, protocolos, arquiteturas, sistemas operacionais, governança e segurança da informação. No decorrer da minha carreira eu conclui duas graduações em Análise e Desenvolvimento de Sistemas e Gestão de Tecnologia da Informação, me especializando mais em sistema operacional Linux e no mundo Open Source, principais ferramentas de administração do SO e principais tecnologias que estão no âmbito do sistema com cursos de aperfeiçoamento e certificações. Possuo skills em programação, possuo conhecimentos em Python, Powershell e Shell Script. Conhecimentos em Git, Docker, Terraform, Puppet, Kubernetes, Apache, Nginx, Elk Stack, AWS, entre outros. Atualmente estou aprimorando cada vez mais habilidades em CI/CD, Observability, Application Monitoring, Infrastructure Monitoring, Configuration Management e Cloud Computing"
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineering Sr Analyst"
+        dates = "2021 - Present"
+        company = "Accenture"
+        details = "Implementar melhorias nos servidores Splunk para o ambiente interno da empresa, assim como criar novos servidores e serviços Splunk. Realizar suporte e troubleshooting aos ambientes Splunk, gerenciados pela companhia, incluindo clientes. Realizar a gestão de todos os servidores Splunk, aplicando boas práticas e criando alertas e dashboards."
+		[[params.experience.list.items]]
+        details = "Gestão da ferramenta de acordo com as boas práticas estipuladas pelo fabricante"
+        [[params.experience.list.items]]
+        details = "Implementação de novos projetos Splunk do zero utilizando ambientes mistos"
+        [[params.experience.list.items]]
+        details = "Criação de desenhos de novas/revisão de arquiteturas Splunk"
+
+        [[params.experience.list]]
+        title = "System Administrator"
+        dates = "2019 - 2021"
+        company = "Itaú"
+        details = "Atuação de maneira preventiva e realizando suporte proativo para melhoria no gerenciamento das plataformas das aplicações do Contact Center. Realizo validações preditivas e proponho melhorias na infraestrutura do Contact Center do Itaú, pensando sempre nos itens de Observability e nas automações do ambiente utilizando Python, Powershell, Shell Script, entre outros."
+        [[params.experience.list.items]]
+        details = "Riverbed: Solução de gerenciamento utilizada para análise fim a fim de toda a infraestrutura do Contact Center"
+		[[params.experience.list.items]]
+        details = "Prometheus/Grafana: Praticidade na visualização dos gráficos, sendo utilizado para criar dashboards dinâmicos que podem ser compartilhados com toda a nossa equipe."
+		[[params.experience.list.items]]
+        details = "Appdynamics: Ferramenta de APM usada para o monitoramento de performance de aplicações Java e .Net."
+
+		[[params.experience.list]]
+        title = "System Administrator"
+        dates = "2018 - 2019"
+        company = "PagSeguro"
+        details = "Responsável por garantir o perfeito funcionamento dos servidores de produção/homologação para transações online via Sitef. Responsável pelo ambiente de teste, suporte e administração do servidor de forma a garantir o ambiente ativo e atualizado para realização de testes de homologação."
+        [[params.experience.list.items]]
+        details = "Gerenciamento das plataformas de logs: Splunk, Elastic Stack e criação de alertas de monitoração e jobs"
+		[[params.experience.list.items]]
+        details = "Administração de servidores Windows e Linux"
+		[[params.experience.list.items]]
+        details = "Elaboração de manuais de utilização prática e suporte a colaboradores internos."
+		
+		[[params.experience.list]]
+        title = "Technical Support Analyst N2"
+        dates = "2017 - 2018"
+        company = "UolDiveo"
+        details = "Atuando na equipe de nível 2 na sustentação/operação e mantendo a disponibilidade do ambiente financeiro do cliente. Resoluções de incidentes, requisições, deploy de novas versões de aplicações e atuação em Mudanças e crises do ambiente."
+        [[params.experience.list.items]]
+        details = "Troubleshooting na indisponibilidade de aplicações financeiras do cliente que são sustentadas por servidores Windows Server (2003, 2008 e 2012) e Linux Red Hat 6 e 7."
+        [[params.experience.list.items]]
+        details = "Configuração de NFS, DNS, Windows Failover Manager e administração de máquinas virtuais no ambiente VSphere do cliente, composto por máquinas de produção e homologação. Principais ferramentas de monitoração utilizadas: Nimsoft, Dynatrace e Zabbix."
+		[[params.experience.list.items]]
+        details = "Elaboração de manuais técnicos com o intuito de auxiliar e prestar suporte às outras equipes que compõem o ambiente do Carrefour"
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Observability no ambiente do Contact Center"
+        meta = "Splunk, Prometheus, AppDynamics"
+        tagline = "Visando uma melhor gestão, proatividade e controle total do ambiente de infraestrutura, implantei algumas ferramentas para monitorar nossos principais soluções de aplicações e centralizar em dashboard os principais itens real-time. Através de históricos, relatórios de indisponibilidades e incidentes de monitoração, a equipe de infraestrutura tem uma visão mais abrangente dos problemas mais recorrentes e também auxilia na necessidade de upgrades e investimentos pontuais em novos equipamentos."
+
+        [[params.projects.list]]
+        title = "Centralizador de Logs"
+        meta = "Elastic Stack"
+        tagline = "Havendo a necessidade de centralizar os logs das aplicações e dos servidores, criamos uma estrutura através do Elastic Stack e com as visualizações de Dashboards no Grafana."
+		
+
+	[params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "GitLab Certified Associate"
+        date = "2021"
+        [[params.awards.list]]
+        name = "AWS Certified Cloud Practitioner"
+        date = "2021"
+		[[params.awards.list]]
+        name = "Microsoft Azure Fundamentals"
+        date = "2021"
+		[[params.awards.list]]
+        name = "Splunk Certified Core User"
+        date = "2020"
+		[[params.awards.list]]
+        name = "Oracle Cloud Associate Foundations"
+        date = "2020"
+		[[params.awards.list]]
+        name = "Comptia Linux+ (Powered By LPI)"
+        date = "2018"
+		[[params.awards.list]]
+        name = "Linux Essentials"
+        date = "2018"
+		[[params.awards.list]]
+        name = "MTA 98-366 Networking Fundamentals"
+        date = "2017"
+		
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/leandro-matos"
+        title = "leandro-matos"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/leandro-matos-pereira"
+        title = "leandro-matos-pereira"
+		[[params.social.list]]
+        icon = "fab fa-facebook"
+        url = "//facebook.com/leandr.matt"
+        title = "leandr.matt"
+
+
+
+
